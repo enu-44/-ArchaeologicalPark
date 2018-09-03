@@ -1,11 +1,12 @@
 package com.hannerenuardevelopers.usuario.archaeologicalpark.activities.main_activity
 
+
 import com.hannerenuardevelopers.usuario.archaeologicalpark.activities.main_activity.events.UsuarioEvents
 import com.hannerenuardevelopers.usuario.archaeologicalpark.lib.EventBus
 import com.hannerenuardevelopers.usuario.archaeologicalpark.models.Usuario
 import org.greenrobot.eventbus.Subscribe
 
-class MainPresenter (eventBus:EventBus,view:IMainViewActivity.MainView,interactor:IMainViewActivity.Interactor):IMainViewActivity.Presenter {
+class MainPresenter (eventBus: EventBus, view:IMainViewActivity.MainView, interactor:IMainViewActivity.Interactor):IMainViewActivity.Presenter {
 
     var mainView:IMainViewActivity.MainView?
     var eventBus: EventBus

@@ -6,7 +6,6 @@ import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
 
-import org.greenrobot.eventbus.Subscribe;
 
 @Module
 class LibsModule(activity: Activity) {
@@ -31,6 +30,7 @@ class LibsModule(activity: Activity) {
         }
         return imageLoader
     }
+
 
     @Provides
     @Singleton

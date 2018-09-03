@@ -14,6 +14,7 @@ import java.util.*
 
 
  class GlideImageLoader:ImageLoader {
+
     private var glideRequestManager: RequestManager? = null
      var onFinishedImageLoadingListener: RequestListener<*, *>? = null
 

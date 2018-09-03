@@ -30,12 +30,10 @@ class UsuarioAdapter(var lista: List<Usuario>, var onItemClickListener:OnItemCli
         return lista.size
     }
 
-
     fun setItems(newItems: List<Usuario>) {
         //lista.addAll(newItems)
         lista=newItems
         notifyDataSetChanged()
-
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
@@ -58,7 +56,5 @@ class UsuarioAdapter(var lista: List<Usuario>, var onItemClickListener:OnItemCli
 
         }
     }
-
-
 }
 
